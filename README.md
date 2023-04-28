@@ -12,3 +12,25 @@ python3 test.py
 
 The code is distributed under the terms of the [BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clause) (see
 `LICENSE`).
+
+## Questions
+
+- Can you run the test cases, as described above?
+
+- Is the model reproducible?
+
+- Are the test cases sensible?
+
+- Are the test cases comprehensive?
+
+## Exercises
+
+- [ ] Define a reproducible environment in which the model can run.
+
+- [ ] Update the model so that its outputs can be reproduced.
+
+- [ ] Write test cases that check if the model outputs are reproducible.
+
+- [ ] Use [pytest](https://docs.pytest.org/) to run the test cases.
+
+- [ ] Use [GitHub Actions](https://docs.github.com/en/actions) to run the test cases every time you push a new commit.
