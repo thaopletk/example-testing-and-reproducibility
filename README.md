@@ -9,3 +9,6 @@ You can run the test cases by running the following command:
 ```sh
 python3 test.py
 ```
+
+The code is distributed under the terms of the [BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clause) (see
+`LICENSE`).
