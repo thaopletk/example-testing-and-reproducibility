@@ -40,12 +40,31 @@ The code is distributed under the terms of the [BSD 3-Clause license](https://op
 
 ## Exercises
 
+- [x] Use [GitHub Actions](https://docs.github.com/en/actions) to run the test cases every time you push a new commit.
+
+**Notes**: Set up requirements.txt; annoyingly, Python 3.10 does not load numpy properly, but version 3.9 works. See `python-app.yml` in the `.github\workflows` folder.
+
 - [ ] Define a reproducible environment in which the model can run.
+
+**Notes**: Since I already set up a requirements.txt file, I guess I'm going with Python virtualenv... -- Unless this question is asking something about containers/docker / ??? 
+
+`python -m venv .venv`
+
+`.venv\Scripts\activate.bat`
+
+`pip install -r requirements.txt`
+
+Is that a reproducible environment???? does the set up in the github actions consistute a reproducible environment?
+
 
 - [ ] Update the model so that its outputs can be reproduced.
 
+**Notes**: Is this about...random number generation and setting up a seed? 
+
 - [ ] Write test cases that check if the model outputs are reproducible.
+
+**Notes**: Then, getting the same series of random numbers?
 
 - [ ] Use [pytest](https://docs.pytest.org/) (Python) or [testthat](https://testthat.r-lib.org/) (R) to run the test cases.
 
-- [ ] Use [GitHub Actions](https://docs.github.com/en/actions) to run the test cases every time you push a new commit.
+
