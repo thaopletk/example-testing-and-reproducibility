@@ -30,13 +30,13 @@ The code is distributed under the terms of the [BSD 3-Clause license](https://op
 
 ## Questions
 
-- Can you run the test cases, as described above?
+- Can you run the test cases, as described above? Yes
 
-- Is the model reproducible?
+- Is the model reproducible? @_@ 
 
-- Are the test cases sensible?
+- Are the test cases sensible? Hmmm
 
-- Are the test cases comprehensive?
+- Are the test cases comprehensive? Is this a trick question? Probably not comprehensive [what edge cases?]
 
 ## Exercises
 
